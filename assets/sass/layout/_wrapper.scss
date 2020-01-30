@@ -58,6 +58,8 @@ color: rgb(77, 77, 170);
 		height: 15rem; 
 		position: relative;
 		 left: 0%;
+		 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { transform: scale(.9);}
+
 	}
 
 	#gozenmobile {
@@ -65,6 +67,9 @@ color: rgb(77, 77, 170);
 		position: absolute; 
 		left: 5%; 
 		top: 65%;
+		@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { top:70%}
+
+
 	}
 
 	#gozenlocation {
@@ -72,6 +77,8 @@ color: rgb(77, 77, 170);
 		position: absolute; 
 		left: 60%;
 		 top:60%;
+		 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { transform: scale(0);}
+
 	}
 
 
