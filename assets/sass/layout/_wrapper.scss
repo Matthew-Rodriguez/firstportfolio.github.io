@@ -1,0 +1,105 @@
+///
+/// Hyperspace by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Wrapper (main) */
+
+	#wrapper {
+		#sidebar + & {
+			margin-left: _size(sidebar-width);
+
+			@include breakpoint('<=large') {
+				margin-left: 0;
+				padding-top: _size(sidebar-height);
+			}
+
+			@include breakpoint('<=small') {
+				padding-top: 0;
+			}
+		}
+
+		#header + & {
+			> .wrapper {
+				> .inner {
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+
+.wrap:hover .demo {
+	visibility: visible;
+	opacity: 1;
+	backdrop-filter: blur(1px);
+
+	border-radius: 0%;
+	
+	font-size: 3rem;
+	box-sizing: content-box;
+	height: 50%;
+	padding-top:7rem;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+
+.code {
+color: rgb(77, 77, 170);
+
+&:hover {
+	color:white;
+}
+}
+
+
+	#gozendesktop {
+		height: 15rem; 
+		position: relative;
+		 left: 0%;
+	}
+
+	#gozenmobile {
+		height: 10rem; 
+		position: absolute; 
+		left: 5%; 
+		top: 65%;
+	}
+
+	#gozenlocation {
+		height: 12rem; 
+		position: absolute; 
+		left: 60%;
+		 top:60%;
+	}
+
+
+.demo {
+	position: absolute;
+	top: 30%;
+	bottom: 10%;
+	left: 0;
+	right: 0;
+	background: rgba(156, 107, 150, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+  
+	/* transition effect. not necessary */
+	transition: opacity .2s, visibility .2s;
+  }
+
+ 
+  #arcadedesktop {
+	  height: 17rem;
+	  position: relative;
+	  left: -8%;
+	  top:10%;
+	  margin-top: 1rem;
+  }
+
+ .inner {
+	font-family: 'Lato', sans-serif;
+
+ }
