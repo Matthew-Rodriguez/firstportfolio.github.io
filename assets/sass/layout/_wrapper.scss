@@ -98,6 +98,8 @@ color: rgb(77, 77, 170);
 	  left: -8%;
 	  top:10%;
 	  margin-top: 1rem;
+	  	  @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { transform: scale(0.9); left:-2rem;}
+
   }
 
  .inner {
