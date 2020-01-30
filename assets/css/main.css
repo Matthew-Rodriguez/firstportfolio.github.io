@@ -2209,6 +2209,10 @@ table {
   left: -8%;
   top: 10%;
   margin-top: 1rem; }
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+    #arcadedesktop {
+      transform: scale(0.9);
+      left: -2rem; } }
 
 .inner {
   font-family: 'Lato', sans-serif; }
