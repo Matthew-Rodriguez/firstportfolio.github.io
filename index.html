@@ -1,5 +1,9 @@
 <!DOCTYPE HTML>
-
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Matthew's Portfolio</title>
@@ -7,12 +11,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Sidebar -->
 			<section id="sidebar">
+				
 				<div class="inner">
 					<nav>
 						<ul>
@@ -20,9 +28,11 @@
 							<li><a href="#one">About Me</a></li>
 							<li><a href="#two">Projects</a></li>
 							<li><a href="#three">Contact Me</a></li>
+							
 						</ul>
 					</nav>
 				</div>
+				
 			</section>
 
 		<!-- Wrapper -->
@@ -30,10 +40,11 @@
 
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Frontend Developer</h1>
-							<h2>Matthew Rodriguez</h2>
-							<p>I am a passionate developer but most importantly, I am about technology. I am self-driven and eager to expand my knowledge towards computer sciences.<br />
+						<div class="inner fontmont">
+							<img src="./images/headerbot.png" alt="data" class="animated rotateIn" id="headpic">
+							<h1 class="animated fadeInRight">Matthew Rodriguez</h1>
+							<h2 class="animated fadeInLeft">Frontend Developer</h2>
+							<p class="animated fadeInLeft">I am a passionate developer but most importantly, I am about technology.<br />
 					</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
@@ -45,9 +56,11 @@
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
 							<div class="content">
-								<div class="inner">
-									<h2>About me</h2>
-									<p>Frontend Developer and UX/UI Designer currently residing in Los Angeles. I have experience working with React, Javascript, HTML5, and CSS with preprocessors like Sass.<br><br> The locomotive behind my dedication to computer sciences rests upon my love for this digital age that is upon us.</p>
+								<div class="inner fontmont">
+									<h2 class="aboutme">About me</h2>
+									<img src="./images/aboutme.png" alt="data" class="aboutmepic">
+
+									<p>Frontend Developer and UX/UI Designer currently residing in Los Angeles. I have experience working with React, Javascript, HTML5, and CSS3 with preprocessors like Sass. For UI design, I tend to use Figma for my mock-up.<br><br> With everyday that goes by, I am dedicated to becoming a better developer than the day before. </p>
 									<ul class="actions">
 									</ul>
 								</div>
@@ -60,7 +73,7 @@
 
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
+						<div class="inner fontmont">
 							<h2>Projects</h2>
 							<p></p>
 							<div class="features">
@@ -70,13 +83,14 @@
 									<div class="wrap">
 									<h3 >Restaurant Website </h3>
 									<a href="https://github.com/Matthew-Rodriguez/gozenrestuarant.github.io" alt="Website"><p class="code">Source Code</p></a>
+									<a href="https://gozenjapaneserestaurant.com" alt="Website"><p class="dem">&rarr; Website &larr;</p></a>
 
-									<p>Built for a local sushi restaurant, I used HTML5, CSS/Sass, Javascript, and Bootstrap for a carousel plugin. I also went through the configurations of deploying it using Cyberduck and Hostgator.</p>
+
+									<p>Built for a local sushi restaurant, <b>I used HTML5, CSS/Sass, Javascript, and Bootstrap </b>for a carousel plugin. I also went through the configurations of deploying it using Cyberduck and Hostgator.</p><br><p><b>Key Achievements:</b> Performance grade ranked at 91; increased 20 points higher than the old website. Site speed also ran 15% quicker. </p>
 									<img src="images/gozendesktop.png" id="gozendesktop" class="gozen">
 									<img src="images/gozenmobileloc.png" id="gozenlocation" class="gozen">
 									<img src="images/gozenmobile.png" id="gozenmobile" class="gozen">
 									
-									<a href="https://gozenjapaneserestaurant.com" alt="Website"><p class="demo">Check it Out!</p></a>
 
 
 										</div>	
@@ -88,17 +102,58 @@
 
 									<h3>Arcade</h3>
 									<a href="https://github.com/Matthew-Rodriguez/arcade.github.io" alt="Website"><p class="code">Source Code</p></a>
+									<a href="https://matthew-rodriguez.github.io/arcade.github.io/" alt="Website"><p class="dem">&rarr; Website &larr;</p></a>
 
-									<p>Used CSS-Doodle, and Javascript <i>only</i> for the games. Features a Connect4 game, and a rock paper scissors game versus the computer. </p>
+
+									<p>Utilizied <b>CSS-Doodle</b>, and <b>Javascript.</b>  Features a Connect4 game, and a rock paper scissors game versus the computer. I plan to expand on this concept and allow users to have a platfrom to play versus AI. </p><br><p><b>Key Achievements:</b> Processed, analyzed, and rendered data visually. Manipulated the DOM using JQuery. In the works of implementing the minimax algorithm on the Connect4 game.</p>
+
 									<img src="images/arcade.png" id="arcadedesktop">
+									<img src="images/connect.png" id="connect">
 
-									<a href="https://matthew-rodriguez.github.io/arcade.github.io/" alt="Website"><p class="demo">Check it Out!</p></a>
+
 
 									</div>
 
 								</section>
-						
+								<section>
+									<i class="fas fa-globe-americas icon solid major"></i>
+
+									<div class="wrap">
+
+									<h3>Earth Explorer</h3>
+									<a href="https://github.com/Matthew-Rodriguez/earthexplorer.github.io" alt="Website"><p class="code">Source Code</p></a>
+									<a href="https://matthew-rodriguez.github.io/earthexplorer.github.io/" alt="Website"><p class="dem">&rarr; Website &larr;</p></a>
+
+
+									<p>Incorporated <b>CesiumJS</b>, an open source Javascript library for creating world class 3D models of earth. </p><br><p><b>Key Achievements:</b> Successfully fetched cesium's API to deploy a 3D model. I plan to incorporate this library alongside my weather app to be able to ping anywhere on earth and pull data from wherever you clicked.</p>
+
+									<img src="images/earth.png" id="earth">
+
+
+									</div>
+
+								</section>
+								<section>
+									<i class="fas fa-bolt icon solid major"></i>
+
+									<div class="wrap">
+
+									<h3>Weather App</h3>
+									<a href="https://github.com/Matthew-Rodriguez/my-app" alt="Website"><p class="code">Source Code</p></a>
+									<a href="https://matthew-rodriguez.github.io/my-app/" alt="Website"><p class="dem">&rarr; Website &larr;</p></a>
+
+
+									<p>Applied <b>React.js</b> to affect state of elements. Any city you type in, my app will pull location, degrees, and the condition.</p><br><p><b>Key Achievements:</b> Using react components to dynamically change the content being inputted. </p>
+
+									<img src="images/weather.png" id="weather">
+
+
+									</div>
+
+								</section>
 					</section>
+					
+					
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
@@ -148,9 +203,10 @@
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="https://twitter.com/gh0sid" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 												<li><a href="https://github.com/Matthew-Rodriguez" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 												<li><a href="https://linkedin.com/in/matthew-rodriguez-080697146" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="MatthResume.pdf" class="icon  fas fa-file">  Resume<span class="label">Resume</span></a></li>
+
 											</ul>
 										</li>
 									</ul>
