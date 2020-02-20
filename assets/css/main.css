@@ -2167,10 +2167,10 @@ table {
     box-shadow: 3px 6px rgba(0, 0, 0, 0.2); }
 
 #gozendesktop {
-  height: 20rem;
+  height: 18rem;
   position: relative;
   left: -30%;
-  top: -10%; }
+  top: -7%; }
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
     #gozendesktop {
       transform: scale(0.9); } }
@@ -2210,7 +2210,7 @@ table {
 #arcadedesktop {
   height: 19rem;
   position: relative;
-  left: -25%;
+  left: -49%;
   top: 30%;
   margin-top: 1rem; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2246,23 +2246,11 @@ table {
 .aboutme {
   position: relative; }
 
-.aboutmepic {
-  transform: scale(0.4);
-  left: 5.5%;
-  opacity: 0.3;
-  overflow: hidden;
-  top: -60%;
-  /* margin-left: -6rem; */
-  position: absolute;
-  transition: 0.4s ease-in; }
-  @media only screen and (max-width: 1000px) {
-    .aboutmepic {
-      display: none;
-      overflow: hidden; } }
+
 
 #weather {
   position: relative;
-  left: -40%;
+  left: -66%;
   top: -30%;
   margin-top: -2rem; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2272,7 +2260,7 @@ table {
 
 #earth {
   position: absolute;
-  left: -5%;
+  left: -21%;
   top: 60%; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     #earth {
