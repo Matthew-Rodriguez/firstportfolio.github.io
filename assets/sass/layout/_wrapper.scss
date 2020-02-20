@@ -1,4 +1,10 @@
+///
+/// Hyperspace by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
 
+/* Wrapper (main) */
 
 	#wrapper {
 		#sidebar + & {
@@ -48,10 +54,10 @@
 
 
 	#gozendesktop {
-		    height: 18rem;
-   			 position: relative;
-   			 left: -30%;
-   			 bottom: -2rem;
+		height: 20rem; 
+		position: relative;
+		 left: -30%;
+		 top:-10%;
 		 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { transform: scale(.9);}
 
 		 @media only screen 
@@ -105,7 +111,7 @@
   #arcadedesktop {
 	  height: 19rem;
 	  position: relative;
-	  left: -50%;
+	  left: -25%;
 	  top:30%;
 	  margin-top: 1rem;
 
@@ -147,20 +153,7 @@
 	}
  }
 
- #headpic {
-	 position: absolute;
-	 left:-13%;
-	 width: 80%;	 
-	 top:-15%;
-	 opacity: .4;
-	 overflow: hidden;
-	 transform: scale(1);
-display: none;
-	 @media only screen and (max-width: 1100px) {
-		 display: none; overflow: hidden;
-	 }
-
- }
+ 
 .margin {
 position: relative;
 left: 5%;
@@ -173,11 +166,11 @@ top: 5%;
  }
 
  .aboutmepic{
-	transform: scale(0.5);
-    left: 45.5%;
-    opacity: 0.3;
-	top: -87%;
-	overflow-x: hidden;
+	transform: scale(0.4);
+    left: 5.5%;
+	opacity: 0.3;
+	overflow: hidden;
+	top: -60%;
     /* margin-left: -6rem; */
     position: absolute;
     transition: 0.4s ease-in;
@@ -190,7 +183,7 @@ top: 5%;
 
 #weather {
 	position: relative;
-	left:-65%;
+	left:-40%;
 	top:-30%;
 	margin-top: -2rem;
 
@@ -204,7 +197,7 @@ top: 5%;
 
 #earth {
 	position: absolute;
-	left:-20%;
+	left:-5%;
 	top:60%;
 
 	@media only screen 
@@ -237,4 +230,21 @@ html {
 	position: absolute;
 	left: 25%;
 	top: 72%;
+}
+
+.addclip {
+	clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 80%);
+	
+}
+
+.addclip2 {
+margin-top: -12rem;
+margin-bottom: -5rem;
+clip-path: polygon(0 0, 100% 39%, 100% 100vh, 0 100%);
+
+}
+
+.addclip3 {
+	clip-path: polygon(0 5vh, 100% 0, 100% 100vh, 0 20000%);
+
 }

@@ -2167,10 +2167,10 @@ table {
     box-shadow: 3px 6px rgba(0, 0, 0, 0.2); }
 
 #gozendesktop {
-  height: 18rem;
-   	 position: relative;
-	left: -30%;
-    bottom: -2rem; }
+  height: 20rem;
+  position: relative;
+  left: -30%;
+  top: -10%; }
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
     #gozendesktop {
       transform: scale(0.9); } }
@@ -2210,7 +2210,7 @@ table {
 #arcadedesktop {
   height: 19rem;
   position: relative;
-  left: -50%;
+  left: -25%;
   top: 30%;
   margin-top: 1rem; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2238,20 +2238,6 @@ table {
     text-decoration: none;
     box-shadow: 3px 6px rgba(0, 0, 0, 0.2); }
 
-#headpic {
-  position: absolute;
-  left: -13%;
-  width: 80%;
-  top: -15%;
-  opacity: .4;
-  overflow: hidden;
-  transform: scale(1);
-  display: none; }
-  @media only screen and (max-width: 1100px) {
-    #headpic {
-      display: none;
-      overflow: hidden; } }
-
 .margin {
   position: relative;
   left: 5%;
@@ -2261,11 +2247,11 @@ table {
   position: relative; }
 
 .aboutmepic {
-  transform: scale(0.5);
-  left: 45.5%;
+  transform: scale(0.4);
+  left: 5.5%;
   opacity: 0.3;
-  top: -87%;
-  overflow-x: hidden;
+  overflow: hidden;
+  top: -60%;
   /* margin-left: -6rem; */
   position: absolute;
   transition: 0.4s ease-in; }
@@ -2276,7 +2262,7 @@ table {
 
 #weather {
   position: relative;
-  left: -65%;
+  left: -40%;
   top: -30%;
   margin-top: -2rem; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2286,7 +2272,7 @@ table {
 
 #earth {
   position: absolute;
-  left: -20%;
+  left: -5%;
   top: 60%; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     #earth {
@@ -2309,6 +2295,17 @@ html {
   position: absolute;
   left: 25%;
   top: 72%; }
+
+.addclip {
+  clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 80%); }
+
+.addclip2 {
+  margin-top: -12rem;
+  margin-bottom: -5rem;
+  clip-path: polygon(0 0, 100% 39%, 100% 100vh, 0 100%); }
+
+.addclip3 {
+  clip-path: polygon(0 5vh, 100% 0, 100% 100vh, 0 20000%); }
 
 /* Footer */
 #sidebar + #wrapper + #footer {
