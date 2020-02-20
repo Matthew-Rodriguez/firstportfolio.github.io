@@ -2167,10 +2167,10 @@ table {
     box-shadow: 3px 6px rgba(0, 0, 0, 0.2); }
 
 #gozendesktop {
-  height: 20rem;
-  position: relative;
-  left: -30%;
-  top: -10%; }
+  height: 18rem;
+   	 position: relative;
+	left: -30%;
+    bottom: -2rem; }
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
     #gozendesktop {
       transform: scale(0.9); } }
@@ -2210,7 +2210,7 @@ table {
 #arcadedesktop {
   height: 19rem;
   position: relative;
-  left: -25%;
+  left: -50%;
   top: 30%;
   margin-top: 1rem; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2276,7 +2276,7 @@ table {
 
 #weather {
   position: relative;
-  left: -40%;
+  left: -65%;
   top: -30%;
   margin-top: -2rem; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2286,7 +2286,7 @@ table {
 
 #earth {
   position: absolute;
-  left: -5%;
+  left: -20%;
   top: 60%; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     #earth {
